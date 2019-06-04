@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Economy</title>
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="css/economy.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg fixed-top" style="background-image: url(img/banner-1571858_1920.jpg) ">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/marca.png" ></a>
+      
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="img/iconfinder_menu-alt_134216.png">
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"> 
+                  <img src="img/home.png" width="30" height="30"data-toggle="tooltip" data-placement="top" title="Inicio">                 
+                   </a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quemsomos.html"data-toggle="tooltip" data-placement="top" title="Quem Somos">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reciclar.html"data-toggle="tooltip" data-placement="top" title="Reciclar">Reciclar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="decompor.html"data-toggle="tooltip" data-placement="top" title="Decompor">Decompor</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+  <header>
+    
+  </header>
+
+ 
+  <div class="container">
+
+    <h1 class="my-4">Descubra quanto vale o seu "lixo"</h1>
+
+    <!-- Aplicação de reciclagem -->
+    <div class="row">
+      <div class="col-lg-5 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Calculadora Economy</h4>
+          <div class="card-body">
+              <form>
+                  <div class="row">
+                    <div class="col">
+                        <form class="form-inline">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Material</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                              <option selected>Escolher...</option>
+                              <option value="1">Papelão</option>
+                              <option value="2">Papel Branco</option>
+                              <option value="3">Latas de Aço</option>
+                              <option value="4">Alumínio</option>
+                              <option value="5">Vidro Incolor</option>
+                              <option value="6">Plástico Rígido</option>
+                              <option value="7">PET</option>
+                              <option value="8">Plástico Filme</option>
+                              <option value="9">Longa Vida - Embalagem</option>
+                            </select>
+                    </div>                  
+
+
+                    <div class="col-3">
+                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Peso</label>
+                        <input class="form-control" type="text" placeholder="Kg" id="valorPeso">
+                        <br>
+                    </div>
+                  </div>
+                </form>
+
+          <div class="card-footer">
+              <div class="row">
+              <div class="col">
+              <button type="button" class="btn btn-success" onclick="calcularReciclagem()">Calcular</button>
+              </div>
+              <div class="col">
+                  R$ <label id="Lucro">Lucro</label>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+          </div>
+          <div class="col">
+              <img class="img-fluid" src="img/industria.jpg" alt="">
+            </div>
+        </div>
+      </div>
+      
+        </div>
+      </div>
+    </div>
+ 
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Se encontrou algum problema na utilização da Calculadora Economy ou em outras funcionalidades entre em contato conosco estamos dispostos a ajudar!!</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-success btn-block" href="#">Fale conosco</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
